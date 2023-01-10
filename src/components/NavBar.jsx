@@ -76,7 +76,7 @@ function NavBar() {
     const token = localStorage.getItem("token")
     const username = localStorage.getItem("username")
     axios
-      .post("http://localhost:8080/api_login_mysql/", {
+      .post("https://bookingmeetingroom.com/api_vite/", {
         router: "changepassword",
         username: username,
         oldpassword: oldPassword,

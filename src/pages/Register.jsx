@@ -38,7 +38,7 @@ const Register = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post("http://localhost:8080/api_login_mysql/",{
+    axios.post("https://bookingmeetingroom.com/api_vite/",{
         router:"register",
         username:username,
         password:password,
