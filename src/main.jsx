@@ -16,7 +16,7 @@ import RandomUser from './pages/RandomUser'
 ReactDOM.createRoot(document.getElementById("root")).render(
 
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/vite-darkmode">
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <NavBar />
         <Routes>
